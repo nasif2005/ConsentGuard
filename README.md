@@ -1,4 +1,4 @@
-# ConsentGuard — Milestone 1
+# ConsentGuard
 
 SQLite-only prototype. Uses the two included **synthetic** R500 JSON datasets. No Docker, cloud account, or third-party Python packages required.
 
