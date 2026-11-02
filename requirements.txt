@@ -1,0 +1,16 @@
+```txt
+# LLM agent and workflow
+langgraph
+langchain-openai
+langchain-core
+
+# Model Context Protocol
+mcp==1.30.0
+
+# Vector database and similarity computation
+chromadb==1.5.9
+numpy
+
+# Environment configuration
+python-dotenv
+```
