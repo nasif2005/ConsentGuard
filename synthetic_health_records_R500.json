@@ -1,0 +1,5558 @@
+{
+  "dataset_name": "synthetic_health_records_R500_for_chromadb",
+  "description": "Fictional, template-generated notes based on the label assignments of the original R500 evaluation dataset. These are not clinical records and are not clinically validated. Repeated text is intentional; this dataset supports integration testing, not realistic retrieval evaluation.",
+  "source_dataset": "synthetic_records_R500.json",
+  "patient_id": "P01",
+  "record_count": 500,
+  "records": [
+    {
+      "record_id": "r0001",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0002",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0003",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0004",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0005",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0006",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "ProblemList"
+      ],
+      "note_text": "Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0007",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0008",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0009",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0010",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0011",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0012",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0013",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0014",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0015",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0016",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0017",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0018",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0019",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "DiagnosisSummary"
+      ],
+      "note_text": "Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0020",
+      "patient_id": "P01",
+      "episode_id": "E0001",
+      "author_id": "HP0001",
+      "recorded_at": "2020-01-01",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0021",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0022",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ProblemList"
+      ],
+      "note_text": "Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0023",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0024",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0025",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0026",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ProblemList"
+      ],
+      "note_text": "Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0027",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0028",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0029",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0030",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0031",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0032",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0033",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0034",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0035",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0036",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0037",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "DiagnosisSummary"
+      ],
+      "note_text": "Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0038",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0039",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0040",
+      "patient_id": "P01",
+      "episode_id": "E0002",
+      "author_id": "HP0002",
+      "recorded_at": "2020-01-31",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0041",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0042",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0043",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0044",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0045",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0046",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0047",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0048",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0049",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0050",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0051",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0052",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0053",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "DiagnosisSummary"
+      ],
+      "note_text": "Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0054",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0055",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ProblemList"
+      ],
+      "note_text": "Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0056",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0057",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0058",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0059",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0060",
+      "patient_id": "P01",
+      "episode_id": "E0003",
+      "author_id": "HP0003",
+      "recorded_at": "2020-03-01",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0061",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "ProblemList"
+      ],
+      "note_text": "Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0062",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0063",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "ProblemList"
+      ],
+      "note_text": "Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0064",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "DiagnosisSummary"
+      ],
+      "note_text": "Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0065",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0066",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0067",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0068",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0069",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0070",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "RecentLabs"
+      ],
+      "note_text": "Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0071",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "Allergies"
+      ],
+      "note_text": "Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0072",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "ImagingSummary"
+      ],
+      "note_text": "Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0073",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "Procedures"
+      ],
+      "note_text": "Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0074",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "Vitals"
+      ],
+      "note_text": "Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0075",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "ActiveMedications"
+      ],
+      "note_text": "Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0076",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0077",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0078",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0079",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0080",
+      "patient_id": "P01",
+      "episode_id": "E0004",
+      "author_id": "HP0004",
+      "recorded_at": "2020-03-31",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0081",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0082",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0083",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0084",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0085",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0086",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0087",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0088",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0089",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0090",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0091",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0092",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0093",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0094",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0095",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0096",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0097",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0098",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0099",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0100",
+      "patient_id": "P01",
+      "episode_id": "E0005",
+      "author_id": "HP0005",
+      "recorded_at": "2020-04-30",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0101",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0102",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0103",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0104",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0105",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0106",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0107",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0108",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0109",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0110",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0111",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0112",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0113",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0114",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0115",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0116",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0117",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0118",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0119",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0120",
+      "patient_id": "P01",
+      "episode_id": "E0006",
+      "author_id": "HP0001",
+      "recorded_at": "2020-05-30",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0121",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0122",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0123",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0124",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0125",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0126",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0127",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0128",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0129",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0130",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0131",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0132",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0133",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0134",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0135",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0136",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0137",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0138",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0139",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0140",
+      "patient_id": "P01",
+      "episode_id": "E0007",
+      "author_id": "HP0002",
+      "recorded_at": "2020-06-29",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0141",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0142",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0143",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0144",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0145",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0146",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0147",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0148",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0149",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0150",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0151",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0152",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0153",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0154",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0155",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0156",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0157",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0158",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0159",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0160",
+      "patient_id": "P01",
+      "episode_id": "E0008",
+      "author_id": "HP0003",
+      "recorded_at": "2020-07-29",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0161",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0162",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0163",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0164",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0165",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0166",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0167",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0168",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0169",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0170",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0171",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0172",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0173",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0174",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0175",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0176",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0177",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0178",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0179",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0180",
+      "patient_id": "P01",
+      "episode_id": "E0009",
+      "author_id": "HP0004",
+      "recorded_at": "2020-08-28",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0181",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0182",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0183",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0184",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0185",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0186",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0187",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0188",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0189",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0190",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0191",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0192",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0193",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0194",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0195",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0196",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0197",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0198",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0199",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0200",
+      "patient_id": "P01",
+      "episode_id": "E0010",
+      "author_id": "HP0005",
+      "recorded_at": "2020-09-27",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0201",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0202",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0203",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0204",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0205",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0206",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0207",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0208",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0209",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0210",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0211",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0212",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0213",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0214",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0215",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0216",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0217",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0218",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0219",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0220",
+      "patient_id": "P01",
+      "episode_id": "E0011",
+      "author_id": "HP0001",
+      "recorded_at": "2020-10-27",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0221",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0222",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0223",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0224",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0225",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0226",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0227",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0228",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0229",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0230",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0231",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0232",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0233",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0234",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0235",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0236",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0237",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0238",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0239",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0240",
+      "patient_id": "P01",
+      "episode_id": "E0012",
+      "author_id": "HP0002",
+      "recorded_at": "2020-11-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0241",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0242",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0243",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0244",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0245",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0246",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0247",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0248",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0249",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0250",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0251",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0252",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0253",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0254",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0255",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0256",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0257",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0258",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0259",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0260",
+      "patient_id": "P01",
+      "episode_id": "E0013",
+      "author_id": "HP0003",
+      "recorded_at": "2020-12-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0261",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0262",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0263",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0264",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0265",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0266",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0267",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0268",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0269",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0270",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0271",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0272",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0273",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0274",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0275",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0276",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0277",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0278",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0279",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0280",
+      "patient_id": "P01",
+      "episode_id": "E0014",
+      "author_id": "HP0004",
+      "recorded_at": "2021-01-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0281",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0282",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0283",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0284",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0285",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0286",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0287",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0288",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0289",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0290",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0291",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0292",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0293",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0294",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0295",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0296",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0297",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0298",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0299",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0300",
+      "patient_id": "P01",
+      "episode_id": "E0015",
+      "author_id": "HP0005",
+      "recorded_at": "2021-02-24",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0301",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0302",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0303",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0304",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0305",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0306",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0307",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0308",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0309",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0310",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0311",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0312",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0313",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0314",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0315",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0316",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0317",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0318",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0319",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0320",
+      "patient_id": "P01",
+      "episode_id": "E0016",
+      "author_id": "HP0001",
+      "recorded_at": "2021-03-26",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0321",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0322",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0323",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0324",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0325",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0326",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0327",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0328",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0329",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0330",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0331",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0332",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0333",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0334",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0335",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0336",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0337",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0338",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0339",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0340",
+      "patient_id": "P01",
+      "episode_id": "E0017",
+      "author_id": "HP0002",
+      "recorded_at": "2021-04-25",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0341",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0342",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0343",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0344",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0345",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0346",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0347",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0348",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0349",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0350",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0351",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0352",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0353",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0354",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0355",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0356",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0357",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0358",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0359",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0360",
+      "patient_id": "P01",
+      "episode_id": "E0018",
+      "author_id": "HP0003",
+      "recorded_at": "2021-05-25",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0361",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0362",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0363",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0364",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0365",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0366",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0367",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0368",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0369",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0370",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0371",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0372",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0373",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0374",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0375",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0376",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0377",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0378",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0379",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0380",
+      "patient_id": "P01",
+      "episode_id": "E0019",
+      "author_id": "HP0004",
+      "recorded_at": "2021-06-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0381",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0382",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0383",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0384",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0385",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0386",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0387",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0388",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0389",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0390",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0391",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0392",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0393",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0394",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0395",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0396",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0397",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0398",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0399",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0400",
+      "patient_id": "P01",
+      "episode_id": "E0020",
+      "author_id": "HP0005",
+      "recorded_at": "2021-07-24",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0401",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0402",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0403",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0404",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0405",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0406",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0407",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0408",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0409",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0410",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0411",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0412",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0413",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0414",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0415",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0416",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0417",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0418",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0419",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0420",
+      "patient_id": "P01",
+      "episode_id": "E0021",
+      "author_id": "HP0001",
+      "recorded_at": "2021-08-23",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0421",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0422",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0423",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0424",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0425",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0426",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0427",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0428",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0429",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "PsychiatricNotes"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit."
+    },
+    {
+      "record_id": "r0430",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0431",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0432",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0433",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0434",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0435",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "GeneticRisk"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry."
+    },
+    {
+      "record_id": "r0436",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0437",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "TherapyNotes"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions."
+    },
+    {
+      "record_id": "r0438",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0439",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "SexualHealth"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team."
+    },
+    {
+      "record_id": "r0440",
+      "patient_id": "P01",
+      "episode_id": "E0022",
+      "author_id": "HP0002",
+      "recorded_at": "2021-09-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0441",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0442",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0443",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0444",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0445",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0446",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "SubstanceUse"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit."
+    },
+    {
+      "record_id": "r0447",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0448",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "LongitudinalProgressNotes"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up."
+    },
+    {
+      "record_id": "r0449",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "SocialHistory"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments."
+    },
+    {
+      "record_id": "r0450",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "FamilyHistory"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma."
+    },
+    {
+      "record_id": "r0451",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "SubstanceUse",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0452",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "GeneticRisk",
+        "ProblemList"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry. Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0453",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "SexualHealth",
+        "Procedures"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team. Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0454",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "SexualHealth",
+        "ActiveMedications"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team. Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0455",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "TherapyNotes",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0456",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0457",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "SubstanceUse",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0458",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "PsychiatricNotes",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0459",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "PsychiatricNotes",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0460",
+      "patient_id": "P01",
+      "episode_id": "E0023",
+      "author_id": "HP0003",
+      "recorded_at": "2021-10-22",
+      "labels": [
+        "TherapyNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0461",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "Vitals"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0462",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "TherapyNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0463",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "TherapyNotes",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0464",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SexualHealth",
+        "EmergencyContacts"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0465",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "PsychiatricNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0466",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SocialHistory",
+        "EmergencyContacts"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0467",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "RespiratoryHistory"
+      ],
+      "note_text": "Respiratory history: asthma is documented, with intermittent wheezing and use of a rescue inhaler."
+    },
+    {
+      "record_id": "r0468",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "FamilyHistory",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0469",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SubstanceUse",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0470",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "GeneticRisk",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0471",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "TherapyNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0472",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "Allergies"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0473",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "GeneticRisk",
+        "ActiveMedications"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry. Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0474",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "PsychiatricNotes",
+        "RecentLabs"
+      ],
+      "note_text": "Mental health review: patient describes intermittent anxiety. No acute safety concern was documented during this visit. Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0475",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SubstanceUse",
+        "ProblemList"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit. Problem list reviewed: asthma and hypertension are documented. Continue routine follow-up."
+    },
+    {
+      "record_id": "r0476",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SubstanceUse",
+        "DiagnosisSummary"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit. Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0477",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SocialHistory",
+        "DiagnosisSummary"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments. Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0478",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "FamilyHistory",
+        "EmergencyContacts"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0479",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SocialHistory",
+        "Vitals"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments. Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0480",
+      "patient_id": "P01",
+      "episode_id": "E0024",
+      "author_id": "HP0004",
+      "recorded_at": "2021-11-21",
+      "labels": [
+        "SocialHistory",
+        "Vitals"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments. Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0481",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "TherapyNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0482",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "SocialHistory",
+        "ActiveMedications"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments. Medication review: patient reports using an albuterol inhaler as needed. Adherence and technique were reviewed."
+    },
+    {
+      "record_id": "r0483",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "FamilyHistory",
+        "Allergies"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma. Allergy review: patient reports a rash after penicillin. Avoid penicillin pending allergy assessment."
+    },
+    {
+      "record_id": "r0484",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "GeneticRisk",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Genetic risk review: family history was discussed; no genetic test result is documented in this entry. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0485",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "SocialHistory",
+        "EmergencyContacts"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0486",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "TherapyNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0487",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "TherapyNotes",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0488",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "SexualHealth",
+        "EmergencyContacts"
+      ],
+      "note_text": "Sexual health history was discussed privately. Patient requested confidential follow-up with the care team. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0489",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "FamilyHistory",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0490",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "TherapyNotes",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0491",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "SubstanceUse",
+        "Vitals"
+      ],
+      "note_text": "Substance use history: patient reports no current tobacco use. Alcohol use was discussed during the visit. Vital signs recorded: blood pressure 128/78 mmHg, heart rate 78 beats per minute, respiratory rate 16 per minute, oxygen saturation 97% on room air."
+    },
+    {
+      "record_id": "r0492",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "DiagnosisSummary"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0493",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "TherapyNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Therapy follow-up: patient discussed stress management strategies and agreed to continue scheduled sessions. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0494",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    },
+    {
+      "record_id": "r0495",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "ImagingSummary"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Imaging summary: chest radiograph report notes no acute focal pulmonary opacity."
+    },
+    {
+      "record_id": "r0496",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "FamilyHistory",
+        "AdvanceDirectives"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma. Advance directive review: patient states that preferences have been discussed with the care team; verify the current directive before acting."
+    },
+    {
+      "record_id": "r0497",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "FamilyHistory",
+        "RecentLabs"
+      ],
+      "note_text": "Family history: patient reports a first-degree relative with hypertension and another relative with asthma. Laboratory summary: a recent complete blood count was reviewed. No critical result was documented in this synthetic entry."
+    },
+    {
+      "record_id": "r0498",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "SocialHistory",
+        "Procedures"
+      ],
+      "note_text": "Social history: patient lives with family and reports access to transportation for appointments. Procedure note: peripheral venous access was established for assessment. No immediate complication was documented."
+    },
+    {
+      "record_id": "r0499",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "DiagnosisSummary"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Assessment: asthma and hypertension remain on the active problem list. Follow-up with the treating clinician is planned."
+    },
+    {
+      "record_id": "r0500",
+      "patient_id": "P01",
+      "episode_id": "E0025",
+      "author_id": "HP0005",
+      "recorded_at": "2021-12-21",
+      "labels": [
+        "LongitudinalProgressNotes",
+        "EmergencyContacts"
+      ],
+      "note_text": "Progress note: patient reports no new symptoms since the previous review. Continue monitoring and routine follow-up. Emergency contact: a designated family contact is on file; contact details are omitted from this synthetic dataset."
+    }
+  ]
+}

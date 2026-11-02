@@ -1,0 +1,468 @@
+{
+  "dataset_name": "synthetic_consent_directives_R500",
+  "description": "Synthetic consent fixtures linked to synthetic_health_records_R500.json. Active directives are separated from test fixtures; do not activate rejected drafts.",
+  "evaluation_time": "2026-10-27T12:00:00Z",
+  "validity_interval": "start inclusive, end exclusive",
+  "scope_policy": "Reject conflicting directives with overlapping validity and target scope for the same patient and grantee.",
+  "patient_id": "P01",
+  "additional_professionals": [
+    {
+      "professional_id": "HP0006",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0007",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0008",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0009",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0010",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0011",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0012",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0013",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0014",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0015",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0016",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0017",
+      "description": "Synthetic grantee"
+    },
+    {
+      "professional_id": "HP0018",
+      "description": "Synthetic grantee"
+    }
+  ],
+  "active_directives": [
+    {
+      "consent_id": "C0001",
+      "patient_id": "P01",
+      "grantee_id": "HP0006",
+      "target_type": "record",
+      "target_id": "r0001",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0002",
+      "patient_id": "P01",
+      "grantee_id": "HP0007",
+      "target_type": "record",
+      "target_id": "r0002",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0003",
+      "patient_id": "P01",
+      "grantee_id": "HP0008",
+      "target_type": "record",
+      "target_id": "r0003",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0004",
+      "patient_id": "P01",
+      "grantee_id": "HP0009",
+      "target_type": "record",
+      "target_id": "r0004",
+      "effect": "Deny",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0005",
+      "patient_id": "P01",
+      "grantee_id": "HP0010",
+      "target_type": "record",
+      "target_id": "r0005",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0006",
+      "patient_id": "P01",
+      "grantee_id": "HP0006",
+      "target_type": "record",
+      "target_id": "r0006",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0007",
+      "patient_id": "P01",
+      "grantee_id": "HP0007",
+      "target_type": "record",
+      "target_id": "r0007",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0008",
+      "patient_id": "P01",
+      "grantee_id": "HP0008",
+      "target_type": "record",
+      "target_id": "r0008",
+      "effect": "Deny",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0009",
+      "patient_id": "P01",
+      "grantee_id": "HP0009",
+      "target_type": "record",
+      "target_id": "r0009",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0010",
+      "patient_id": "P01",
+      "grantee_id": "HP0010",
+      "target_type": "record",
+      "target_id": "r0010",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0011",
+      "patient_id": "P01",
+      "grantee_id": "HP0006",
+      "target_type": "record",
+      "target_id": "r0011",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0012",
+      "patient_id": "P01",
+      "grantee_id": "HP0007",
+      "target_type": "record",
+      "target_id": "r0012",
+      "effect": "Deny",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0013",
+      "patient_id": "P01",
+      "grantee_id": "HP0008",
+      "target_type": "record",
+      "target_id": "r0013",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0014",
+      "patient_id": "P01",
+      "grantee_id": "HP0009",
+      "target_type": "record",
+      "target_id": "r0014",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0015",
+      "patient_id": "P01",
+      "grantee_id": "HP0010",
+      "target_type": "record",
+      "target_id": "r0015",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0016",
+      "patient_id": "P01",
+      "grantee_id": "HP0006",
+      "target_type": "record",
+      "target_id": "r0016",
+      "effect": "Deny",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0017",
+      "patient_id": "P01",
+      "grantee_id": "HP0007",
+      "target_type": "record",
+      "target_id": "r0017",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0018",
+      "patient_id": "P01",
+      "grantee_id": "HP0008",
+      "target_type": "record",
+      "target_id": "r0018",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0019",
+      "patient_id": "P01",
+      "grantee_id": "HP0009",
+      "target_type": "record",
+      "target_id": "r0019",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0020",
+      "patient_id": "P01",
+      "grantee_id": "HP0010",
+      "target_type": "record",
+      "target_id": "r0020",
+      "effect": "Deny",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0021",
+      "patient_id": "P01",
+      "grantee_id": "HP0011",
+      "target_type": "episode",
+      "target_id": "E0001",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0022",
+      "patient_id": "P01",
+      "grantee_id": "HP0012",
+      "target_type": "episode",
+      "target_id": "E0002",
+      "effect": "Deny",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0023",
+      "patient_id": "P01",
+      "grantee_id": "HP0013",
+      "target_type": "episode",
+      "target_id": "E0003",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0024",
+      "patient_id": "P01",
+      "grantee_id": "HP0014",
+      "target_type": "episode",
+      "target_id": "E0004",
+      "effect": "Deny",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    },
+    {
+      "consent_id": "C0025",
+      "patient_id": "P01",
+      "grantee_id": "HP0015",
+      "target_type": "episode",
+      "target_id": "E0005",
+      "effect": "Permit",
+      "status": "Active",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2028-01-01T00:00:00Z",
+      "revoked_at": null
+    }
+  ],
+  "test_cases": [
+    {
+      "case_id": "T01",
+      "description": "Deny record author; pre-commit validation must reject.",
+      "expected": "reject",
+      "directive": {
+        "consent_id": "D0001",
+        "patient_id": "P01",
+        "grantee_id": "HP0001",
+        "target_type": "record",
+        "target_id": "r0001",
+        "effect": "Deny",
+        "status": "Draft",
+        "valid_from": "2026-01-01T00:00:00Z",
+        "valid_until": "2028-01-01T00:00:00Z",
+        "revoked_at": null
+      }
+    },
+    {
+      "case_id": "T02",
+      "description": "Opposite effect on the same record, grantee and validity as C0001; reject.",
+      "expected": "reject",
+      "directive": {
+        "consent_id": "D0002",
+        "patient_id": "P01",
+        "grantee_id": "HP0006",
+        "target_type": "record",
+        "target_id": "r0001",
+        "effect": "Deny",
+        "status": "Draft",
+        "valid_from": "2026-01-01T00:00:00Z",
+        "valid_until": "2028-01-01T00:00:00Z",
+        "revoked_at": null
+      }
+    },
+    {
+      "case_id": "T03",
+      "description": "Opposite effect on a record covered by C0021 for the same grantee; reject overlapping scope.",
+      "expected": "reject",
+      "directive": {
+        "consent_id": "D0003",
+        "patient_id": "P01",
+        "grantee_id": "HP0011",
+        "target_type": "record",
+        "target_id": "r0001",
+        "effect": "Deny",
+        "status": "Draft",
+        "valid_from": "2026-01-01T00:00:00Z",
+        "valid_until": "2028-01-01T00:00:00Z",
+        "revoked_at": null
+      }
+    },
+    {
+      "case_id": "T04",
+      "description": "Expired permit is inactive and does not grant access at the evaluation time.",
+      "expected": "deny_at_evaluation_time",
+      "directive": {
+        "consent_id": "H0001",
+        "patient_id": "P01",
+        "grantee_id": "HP0016",
+        "target_type": "record",
+        "target_id": "r0002",
+        "effect": "Permit",
+        "status": "Inactive",
+        "valid_from": "2025-01-01T00:00:00Z",
+        "valid_until": "2026-01-01T00:00:00Z",
+        "revoked_at": null
+      }
+    },
+    {
+      "case_id": "T05",
+      "description": "Revoked permit is inactive and does not grant access at the evaluation time.",
+      "expected": "deny_at_evaluation_time",
+      "directive": {
+        "consent_id": "H0002",
+        "patient_id": "P01",
+        "grantee_id": "HP0017",
+        "target_type": "record",
+        "target_id": "r0003",
+        "effect": "Permit",
+        "status": "Inactive",
+        "valid_from": "2026-01-01T00:00:00Z",
+        "valid_until": "2028-01-01T00:00:00Z",
+        "revoked_at": "2026-06-01T00:00:00Z"
+      }
+    },
+    {
+      "case_id": "T06",
+      "description": "Draft permit is not enforceable before activation.",
+      "expected": "deny_at_evaluation_time",
+      "directive": {
+        "consent_id": "D0004",
+        "patient_id": "P01",
+        "grantee_id": "HP0018",
+        "target_type": "record",
+        "target_id": "r0004",
+        "effect": "Permit",
+        "status": "Draft",
+        "valid_from": "2026-01-01T00:00:00Z",
+        "valid_until": "2028-01-01T00:00:00Z",
+        "revoked_at": null
+      }
+    }
+  ]
+}
