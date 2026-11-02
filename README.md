@@ -33,6 +33,20 @@ The initializer is intentionally **not** idempotent: running it again against an
 - A minimal second synthetic patient `P02` is added **only inside an isolated automated test**, not to the main imported dataset.
 - These 500 records are synthetic template notes with repetition; not clinical-quality retrieval evaluation data.
 
-## Later steps
+## Research Background and Reference
 
-Add a real authenticated session, purpose-of-use rules, broader consent lifecycle validation, record-scoped ChromaDB retrieval, and multi-patient datasets. Keep policy decisions outside the LLM.
+ConsentGuard is motivated by prior research on consent-based access control (CBAC) for healthcare information systems.
+
+The underlying research introduces pre-commit consent validation through a Consent Conflict Analysis Module (CCAM), formalizes baseline access rights for patients and record authors, and proposes controlled emergency access mechanisms.
+
+ConsentGuard explores applying deterministic consent enforcement to LLM-based agents. The LLM selects tools, while an independent Security Gateway evaluates access permissions before clinical records are retrieved or summarized.
+
+The current prototype implements a limited subset of the research framework and does not implement its full emergency-access mechanism.
+
+### Reference
+
+[1] N. Muslim and J.-C. Grégoire, "An Extended Consent-Based Access Control Framework: Pre-Commit Validation and Emergency Access," *arXiv preprint arXiv:2603.07004*, 2026.
+
+**Paper:** https://arxiv.org/abs/2603.07004
+
+**DOI:** https://doi.org/10.48550/arXiv.2603.07004
