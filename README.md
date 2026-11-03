@@ -1,52 +1,71 @@
 # ConsentGuard
 
-SQLite-only prototype. Uses the two included **synthetic** R500 JSON datasets. No Docker, cloud account, or third-party Python packages required.
+**Privacy-Preserving RAG and AI Agent Security Framework**
 
-## Windows PowerShell
+ConsentGuard is a research-oriented prototype for securing LLM-powered AI agents that interact with sensitive, multi-user healthcare records. It integrates deterministic consent-based authorization, an independent Security Gateway, authorization-scoped retrieval-augmented generation (RAG), and secure agent-tool interactions.
 
-1. Extract this folder to `C:\Users\nasif\Downloads\1st project\consentguard_starter`.
-2. Open PowerShell in that folder.
-3. Initialize the database:
+The central security principle is:
 
-```powershell
-python .\consentguard.py --records .\synthetic_health_records_R500.json --consents .\synthetic_consent_directives_R500.json --db .\consentguard.db
-```
+**The LLM proposes actions; an independent Security Gateway determines whether those actions are authorized.**
 
-4. Run the tests:
+## Security Objectives
 
-```powershell
-python -m unittest discover -s tests -v
-```
+- **AI Agent Security:** Enforce deterministic authorization independently of LLM reasoning and tool selection.
+- **RAG Security and Privacy:** Prevent unauthorized retrieval and cross-user data leakage through consent-aware access control.
+- **Prompt Injection and Tool Security:** Restrict unauthorized tool operations through strict MCP argument validation and independent security enforcement.
+- **Retrieval Memory Security:** Protect session-bound retrieval contexts through expiration and consent revalidation.
 
-The initializer is intentionally **not** idempotent: running it again against an existing database fails on duplicate record IDs. Delete `consentguard.db` before rebuilding from scratch (not necessary for tests, which use a temporary database).
+## System Architecture
 
-## Data model and policy semantics
+ConsentGuard integrates:
 
-- `users`: patient and healthcare-professional identities. This is an identity directory, **not** an authentication implementation.
-- `records`: authoritative record text, patient, author, episode, date, labels.
-- `consents`: active consent directives. The six fixture directives are **not imported** into the production database.
-- `authorize(db, principal_id, action, record_id, evaluation_time)` returns `Permit` or `Deny` for **read only**.
-- Author and subject have immutable read access; everyone else needs a valid active permit. Default deny. Denies are honored; contradictory active policy is rejected at pre-commit validation.
-- `validate_directive` checks invalid intervals, missing scope, author/subject denial and overlapping contradictory active directives. It is a limited v1 pre-commit check, not a complete implementation of your CBAC framework.
-- Timestamp bounds are `[valid_from, valid_until)`, UTC-aware.
-- The `principal_id` must ultimately come from a trusted authenticated session, not from LLM tool arguments. Authentication and ChromaDB are **not yet implemented**.
-- A minimal second synthetic patient `P02` is added **only inside an isolated automated test**, not to the main imported dataset.
-- These 500 records are synthetic template notes with repetition; not clinical-quality retrieval evaluation data.
+1. **LLM Agent (LangGraph and OpenRouter):** Interprets user requests and proposes tool calls.
+2. **Model Context Protocol (MCP):** Exposes controlled search and summarization tools.
+3. **Security Gateway:** Validates tool arguments, enforces session-associated identity, and coordinates authorization.
+4. **Consent Policy Engine (SQLite):** Evaluates record-level access permissions using consent directives.
+5. **Secure Retrieval (ChromaDB):** Performs semantic similarity ranking over authorized record embeddings.
+6. **Protected Retrieval Context:** Maintains temporary session-bound retrieval references and revalidates consent before returning record excerpts.
+
+## Implemented Security Mechanisms
+
+- Deterministic, default-deny authorization independent of LLM decisions.
+- Consent-aware filtering before retrieving documents from the vector database.
+- Strict MCP tool-argument validation, including rejection of identity-spoofing parameters.
+- Session-bound retrieval references with expiration.
+- Consent revalidation before releasing previously retrieved record excerpts.
+- Fail-closed handling of invalid authorization and retrieval operations.
+- Automated tests covering selected consent-policy and MCP security scenarios.
+
+## Research Evaluation Roadmap
+
+The next phase will investigate:
+
+- **Prompt Injection:** Attempts to manipulate agent behavior through user inputs and malicious retrieved documents.
+- **Cross-User Data Leakage:** Attempts to access records belonging to unauthorized users.
+- **Memory Poisoning:** Manipulation of retrieval contexts and agent memory.
+- **Tool-Call Security:** Attempts to bypass authorization through MCP tool interfaces.
+- **Security Benchmarking:** Evaluation of protection effectiveness and performance overhead.
+
+Planned evaluation metrics include attack success rate (ASR), unauthorized disclosure rate, authorization decision precision and recall, and Security Gateway latency overhead.
+
+## Current Limitations
+
+ConsentGuard is a research prototype using synthetic healthcare records. It currently relies on controlled test identities rather than production authentication. The summarization tool provides extractive excerpts rather than full clinical synthesis. Comprehensive adversarial benchmarking, dedicated data-poisoning defenses, and production deployment hardening remain future work.
+
+## Technology Stack
+
+Python, LangGraph, OpenRouter, Model Context Protocol (MCP), SQLite, ChromaDB, NumPy.
 
 ## Research Background and Reference
 
-ConsentGuard is motivated by prior research on consent-based access control (CBAC) for healthcare information systems.
+ConsentGuard builds upon prior research on consent-based access control (CBAC) for healthcare information systems:
 
-The underlying research introduces pre-commit consent validation through a Consent Conflict Analysis Module (CCAM), formalizes baseline access rights for patients and record authors, and proposes controlled emergency access mechanisms.
-
-ConsentGuard explores applying deterministic consent enforcement to LLM-based agents. The LLM selects tools, while an independent Security Gateway evaluates access permissions before clinical records are retrieved or summarized.
-
-The current prototype implements a limited subset of the research framework and does not implement its full emergency-access mechanism.
-
-### Reference
-
-[1] N. Muslim and J.-C. Grégoire, "An Extended Consent-Based Access Control Framework: Pre-Commit Validation and Emergency Access," *arXiv preprint arXiv:2603.07004*, 2026.
+**[1]** N. Muslim and J.-C. Grégoire, "An Extended Consent-Based Access Control Framework: Pre-Commit Validation and Emergency Access," *arXiv preprint arXiv:2603.07004*, 2026.
 
 **Paper:** https://arxiv.org/abs/2603.07004
 
 **DOI:** https://doi.org/10.48550/arXiv.2603.07004
+
+The underlying research introduces pre-commit consent conflict analysis, formalizes baseline access rights for patients and record authors, and proposes controlled emergency access mechanisms.
+
+ConsentGuard extends this research direction toward deterministic authorization for LLM-based AI agents. The current implementation covers a subset of the original framework and does not implement its full emergency-access mechanism.
